@@ -157,7 +157,7 @@ Open `default` file. Run:
 sudo vi /etc/nginx/sites-enabled/default
 ```
 
-Change the `index` section in the file from `/var/www/html` to `/var/www/bitcoinkrypton-wallet/clients/browser`.
+Change the `root` section in the file from `/var/www/html` to `/var/www/bitcoinkrypton-wallet/clients/browser`.
 ```
 server {
     listen 80 default_server;
